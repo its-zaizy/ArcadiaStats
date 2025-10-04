@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f3f3f3;
+}
+
+header {
+  background: #272727;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+input, textarea, button, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  background: #272727;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #444;
+}
+
+.post {
+  margin-bottom: 1rem;
+}
+
+.post .author {
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: .5rem;
+  }
+}
